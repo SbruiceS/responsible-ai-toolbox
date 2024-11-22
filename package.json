@@ -52,7 +52,7 @@
     "d3-selection": "^2.0.0",
     "d3-shape": "^2.0.0",
     "d3-zoom": "^2.0.0",
-    "document-register-element": "1.13.1",
+    "document-register-element": "1.14.10",
     "eslint-plugin-sort-keys-fix": "^1.1.1",
     "highcharts": "^10.1.0",
     "jmespath": "^0.15.0",
