@@ -4,10 +4,10 @@ jsonschema
 erroranalysis>=0.3.11
 interpret-community>=0.27.0
 lightgbm>=2.0.11
-numpy>=1.17.2
+numpy>=1.22.2
 numba<0.54.0
 pandas>=0.25.1
-scikit-learn>=0.22.1,<1.1 # See PR 1429 about upper bound
+scikit-learn>=1.5.0 # See PR 1429 about upper bound
 scipy>=1.4.1
 semver~=2.13.0
 
@@ -16,3 +16,4 @@ networkx<=2.5
 ipykernel<=6.6.0
 markupsafe<2.1.0
 raiutils>=0.2.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
