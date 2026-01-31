@@ -1,9 +1,10 @@
 datasets
 gender-guesser==0.4.0
 negspacy==1.0.0
-numpy>=1.17.2
-protobuf==3.18.3
-sentencepiece==0.1.96
+numpy>=1.22.2
+protobuf==6.33.5
+sentencepiece==0.2.1
 spacy==3.0.3
 tqdm==4.49.0
 raiutils>=0.2.0
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
